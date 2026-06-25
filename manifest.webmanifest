@@ -9,5 +9,9 @@
   "theme_color": "#121212",
   "icons": [
     { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "launch_handler": { "client_mode": "navigate-new" },
+  "file_handlers": [
+    { "action": "./", "accept": { "text/csv": [".lam", ".lamina"] } }
   ]
 }
