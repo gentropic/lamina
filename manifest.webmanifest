@@ -1,7 +1,7 @@
 {
   "name": "lamina",
   "short_name": "lamina",
-  "description": "Open any file — even a multi-gigabyte one — and scroll & filter it. Windowed, read-only, offline.",
+  "description": "Open any file — even a multi-gigabyte one — and scroll, filter & sort it. CSV/TSV and Datamine .dm tables, text, archives. Windowed, read-only, offline.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
