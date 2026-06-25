@@ -1,0 +1,13 @@
+{
+  "name": "lamina",
+  "short_name": "lamina",
+  "description": "Open any file — even a multi-gigabyte one — and scroll & filter it. Windowed, read-only, offline.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
