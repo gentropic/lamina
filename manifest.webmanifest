@@ -12,7 +12,7 @@
   ],
   "launch_handler": { "client_mode": "navigate-new" },
   "file_handlers": [
-    { "action": "./", "accept": { "text/csv": [".lam", ".lamina"] } }
+    { "action": "./", "accept": { "application/json": [".lam", ".lamina"] } }
   ],
   "shortcuts": [
     { "name": "Open file…", "short_name": "Open", "url": "./?open=1" },
