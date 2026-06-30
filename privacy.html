@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GCU Lamina — Privacy Policy</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='2' width='28' height='8' fill='%23d97a3c'/%3E%3Crect x='2' y='12' width='8' height='18' fill='%238a9099'/%3E%3Crect x='12' y='12' width='8' height='18' fill='%238a9099'/%3E%3Crect x='22' y='12' width='8' height='18' fill='%238a9099'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --bg:#121212; --panel:#1a1a1a; --text:#c4c4c4; --hi:#e6e6e6; --muted:#8a9099;
+    --accent:#c89b3c; --action:#d97a3c; --bd:#2a2a2a;
+    --mono:'Space Mono',ui-monospace,Consolas,monospace;
+    --sans:'Barlow',system-ui,-apple-system,Segoe UI,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.6}
+  main{max-width:680px;margin:0 auto;padding:56px 24px 80px}
+  .brand{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+  .brand svg{width:30px;height:30px}
+  .brand h1{font-family:var(--mono);font-size:18px;color:var(--accent);margin:0;font-weight:600}
+  .sub{color:var(--muted);font-size:13.5px;margin:0 0 34px}
+  h2{font-family:var(--mono);font-size:15px;color:var(--hi);margin:30px 0 8px;font-weight:600}
+  p{margin:0 0 14px}
+  code{font-family:var(--mono);font-size:.9em;background:var(--panel);border:1px solid var(--bd);border-radius:3px;padding:1px 5px;color:var(--hi)}
+  a{color:var(--action);text-decoration:none;border-bottom:1px solid #6a4a2c}
+  a:hover{border-bottom-color:var(--action)}
+  .foot{margin-top:42px;padding-top:16px;border-top:1px solid var(--bd);color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="8" fill="#d97a3c"/><rect x="2" y="12" width="8" height="18" fill="#8a9099"/><rect x="12" y="12" width="8" height="18" fill="#8a9099"/><rect x="22" y="12" width="8" height="18" fill="#8a9099"/></svg>
+    <h1>GCU Lamina — Privacy Policy</h1>
+  </div>
+  <p class="sub">GCU Lamina (“lamina”) is a local, offline data-file viewer, built to do nothing on the network.</p>
+
+  <h2>We collect nothing</h2>
+  <p>Lamina has no accounts, no sign-in, no telemetry, no analytics, and no cookies or trackers. We do not collect, receive, or have any access to information about you or your use of the app.</p>
+
+  <h2>Nothing leaves your device</h2>
+  <p>Lamina runs under a Content-Security-Policy of <code>connect-src 'none'</code>, which makes every network request — uploads, downloads, beacons — impossible. The files you open are read and processed entirely on your own device; their contents are never uploaded, transmitted, or sent to us or anyone else.</p>
+
+  <h2>Local-only storage</h2>
+  <p>For your convenience, lamina may keep small items on your device — a list of recently opened files and saved view settings (<code>.lamina</code> lenses) — in your browser’s or operating system’s local storage. This stays on your device, is never transmitted, and you can clear it at any time (Recents can be disabled and cleared from within the app).</p>
+
+  <h2>No personal data, by construction</h2>
+  <p>Because lamina runs entirely offline and transmits nothing, it cannot gather personal information. You can verify this yourself: disconnect from the network and it still works; inspect network activity and you’ll see zero requests. See <a href="https://gentropic.org/security">gentropic.org/security</a> for the capability declaration and how to verify it.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: via <a href="https://gentropic.org">gentropic.org</a>.</p>
+
+  <div class="foot"><span>Last updated: 2026-06-29</span><span><a href="https://gentropic.org/lamina/">gentropic.org/lamina</a></span></div>
+</main>
+</body>
+</html>
