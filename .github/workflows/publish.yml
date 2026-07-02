@@ -44,7 +44,9 @@ jobs:
           # Serve: the app (index.html) + PWA assets (manifest/sw/icons) + the
           # privacy page + the downloadable single files (rolling lamina.html and
           # the hash-pinned lamina-0.1.0.html the security page verifies against).
-          cp index.html manifest.webmanifest sw.js icon.svg icon-192.png icon-512.png \
+          cp index.html manifest.webmanifest sw.js \
+             icon.svg icon-192.png icon-512.png \
+             icon-maskable.svg icon-192-maskable.png icon-512-maskable.png \
              privacy.html lamina.html lamina-0.1.0.html .nojekyll _site/
 
       - uses: actions/upload-pages-artifact@v3
