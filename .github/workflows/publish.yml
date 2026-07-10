@@ -48,6 +48,7 @@ jobs:
              icon.svg icon-192.png icon-512.png \
              icon-maskable.svg icon-192-maskable.png icon-512-maskable.png \
              privacy.html lamina.html lamina-0.1.0.html .nojekyll _site/
+          cp -r docs _site/
 
       - uses: actions/upload-pages-artifact@v3
         with:
